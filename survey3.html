@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>설문지</title>
+    </head>
+    <body>
+        <form>
+            <header><h1>설문지</h1></header>
+            뭐가 관심이 있으신지 
+            <hr>
+            <section>
+                <article>학년
+                    <label><input type = "radio" name = "grade" value = "1" selected>1학년</label>
+                    <label><input type = "radio" name = "grade" value = "2">2학년</label>
+                    <label><input type = "radio" name = "grade" value = "3">3학년</label>
+                </article>
+                <aritcle>성별
+                    <label><input type = "radio" name = "sex" value = "4">남</label>
+                    <label><input type = "radio" name = "sex" value = "5">여</label>
+                </aritcle>
+                <article>관심분야
+                    <select name = "interest">
+                        <option value = "6">코딩</option>
+                        <option value = "7">애니</option>
+                        <option value = "8">운동</option>
+                    </select>
+                </article>
+                <article>진로
+                    <input type = "checkbox" value = "9" checked>개발자
+                    <input type = "checkbox" value = "10">직장인
+                    <input type = "checkbox" value = "11">백수
+                    <input type = "checkbox" value = "12">알바
+                </article>
+                <article>
+                    남기고 싶은 말<textarea cols = "50" rows = "10">글을 남겨주세요</textarea>
+                </article>
+            </section>
+            <footer>
+                Copyright 2026 by Kim-Min-Suk
+            </footer>
+        </form>
+    </body>
+</html>
