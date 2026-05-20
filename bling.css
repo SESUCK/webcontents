@@ -1,0 +1,25 @@
+h1 { color : brown; text-align: center;}
+
+body { background: aliceblue; }
+
+header { border-bottom: 1px dotted lightgray;}
+
+a { text-decoration: none;}
+
+h2 { color: blue; text-shadow: 1px;}
+
+p, li { text-indent : 1em; font-family : "휴먼 편지체", Serif; font-size : 1em; }
+
+table { border-collapse: collapse; }
+
+td,th { text-align: center; padding : 5px; height: 15px; width: 200px; font-size: 15px;}
+
+thead,tfoot { background: darkgray; color: yellow; }
+
+tbody tr:nth-child(even) { background: rgb(183, 232, 245); }
+
+tbody th:hover, tbody td:hover { background: pink; }
+
+td, tfoot th { border-bottom: 1px solid gray; }
+
+footer { background: orange; border-radius: 20px;}
