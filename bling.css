@@ -23,5 +23,3 @@ tbody th:hover, tbody td:hover { background: pink; }
 td, tfoot th { border-bottom: 1px solid gray; }
 
 footer { background: orange; border-radius: 20px;}
-
-#color1 { background: lightgoldenrodyellow; }
