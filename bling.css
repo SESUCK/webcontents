@@ -8,8 +8,6 @@ a { text-decoration: none;}
 
 h2 { color: blue; text-shadow : 5px 5px 15px darkblue;}
 
-#color1 { background: lightgoldenrodyellow; }
-
 p, li { text-indent : 1em; font-family : "휴먼 편지체", Serif; font-size : 1em; }
 
 table { border-collapse: collapse; }
@@ -25,3 +23,5 @@ tbody th:hover, tbody td:hover { background: pink; }
 td, tfoot th { border-bottom: 1px solid gray; }
 
 footer { background: orange; border-radius: 20px;}
+
+#color1 { background: lightgoldenrodyellow; }
