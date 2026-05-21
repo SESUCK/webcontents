@@ -2,11 +2,13 @@ h1 { color : brown; text-align: center;}
 
 body { background: aliceblue; }
 
-header { border-bottom: 1px dotted lightgray;}
+header { border-bottom: 1px solid gray;}
 
 a { text-decoration: none;}
 
-h2 { color: blue; text-shadow: 1px;}
+h2 { color: blue; text-shadow : 5px 5px 15px darkblue;}
+
+#color1 { background: lightgoldenrodyellow; }
 
 p, li { text-indent : 1em; font-family : "휴먼 편지체", Serif; font-size : 1em; }
 
@@ -14,7 +16,7 @@ table { border-collapse: collapse; }
 
 td,th { text-align: center; padding : 5px; height: 15px; width: 200px; font-size: 15px;}
 
-thead,tfoot { background: darkgray; color: yellow; }
+thead,tfoot { background: darkgray; color: darkblue; }
 
 tbody tr:nth-child(even) { background: rgb(183, 232, 245); }
 
