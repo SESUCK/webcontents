@@ -4,8 +4,6 @@ body { background: aliceblue; }
 
 header { border-bottom: 1px solid gray; }
 
-section { background: lightblue; }
-
 a { text-decoration: none;}
 
 h2 { color: blue; text-shadow : 5px 5px 15px darkblue;}
