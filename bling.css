@@ -1,12 +1,10 @@
 h1 { color : brown; text-align: center;}
 
-html, body { background: aliceblue; padding: 0px; margin: 0px; height: 100%; }
+body { background: aliceblue; }
 
-header { border-bottom: 1px solid gray; height : 10%; background: yellow; overflow: hidden;}
+header { border-bottom: 1px solid gray; }
 
-nav { width : 20%; height: 82em; background: orange; float: left; overflow: hidden;}
-
-section { width : 80%; height: 82em; background: lightblue; float: left; overflow: hidden;}
+section { background: lightblue; }
 
 a { text-decoration: none;}
 
@@ -26,4 +24,4 @@ tbody th:hover, tbody td:hover { background: pink; }
 
 td, tfoot th { border-bottom: 1px solid gray; }
 
-footer { background: plum; border-radius: 20px; height: 8%; clear: left; overflow: hidden;}
+footer { border-radius: 20px; }
