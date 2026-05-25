@@ -1,14 +1,18 @@
 h1 { color : brown; text-align: center;}
 
-body { background: aliceblue; }
+html, body { background: aliceblue; padding: 0px; margin: 0px; height: 100%; }
 
-header { border-bottom: 1px solid gray;}
+header { border-bottom: 1px solid gray; height : 10%; background: yellow; overflow: hidden;}
+
+nav { width : 20%; height: 82em; background: orange; float: left; overflow: hidden;}
+
+section { width : 80%; height: 82em; background: lightblue; float: left; overflow: hidden;}
 
 a { text-decoration: none;}
 
 h2 { color: blue; text-shadow : 5px 5px 15px darkblue;}
 
-p, li { text-indent : 1em; font-family : "휴먼 편지체", Serif; font-size : 1em; }
+p, li { text-indent : 1em; font-family : "휴먼 편지체", Serif; font-size : 1em }
 
 table { border-collapse: collapse; }
 
@@ -22,4 +26,4 @@ tbody th:hover, tbody td:hover { background: pink; }
 
 td, tfoot th { border-bottom: 1px solid gray; }
 
-footer { background: orange; border-radius: 20px;}
+footer { background: plum; border-radius: 20px; height: 8%; clear: left; overflow: hidden;}
